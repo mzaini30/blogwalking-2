@@ -10,7 +10,6 @@
 }
 .header,
 .credit {
-	position: fixed;
 	width: 100%;
 	background: rgb(244, 67, 54);
 	color: white;
