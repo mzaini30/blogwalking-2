@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,9 +23,11 @@
 	</p>
 	<hr>
 	<ol>
-		<li>
-			<a href="#" class="link">lorem ipsum</a> &times; <span class="deskripsi">Halo</span>
-		</li>
+		{% for blog in site.blog %}
+			<li>
+				<a href="{{ blog.link }}">{{ blog.nama }}</a> &times; <span>{{ blog.deskripsi }}</span>
+			</li>
+		{% endfor %}
 	</ol>
 </div>
 </body>
