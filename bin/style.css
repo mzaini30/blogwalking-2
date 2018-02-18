@@ -3,4 +3,13 @@
 	bottom: 0;
 	left: 0;
 	width: 100%;
+	background: rgb(244, 67, 54);
+	color: white;
+}
+.credit p {
+	margin-top: 10px;
+}
+.credit a {
+	color: white;
+	text-decoration: underline;
 }
