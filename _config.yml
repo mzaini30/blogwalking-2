@@ -1,5 +1,9 @@
 blog:
   -
+    link: http://muhammadzaini.com
+    nama: Zen
+    deskripsi: 'Senyumlah :)'
+  -
     link: http://dewieajaa.blogspot.co.id
     nama: Dewie Dean
     deskripsi: Ada kekuatan di balik kesederhanaan
@@ -23,7 +27,3 @@ blog:
     link: http://syufiayaumma.blogspot.co.id
     nama: Syufia
     deskripsi: Life
-  -
-    link: http://muhammadzaini.com
-    nama: Zen
-    deskripsi: 'Senyumlah :)'

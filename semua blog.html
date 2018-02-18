@@ -18,7 +18,7 @@
 	</p>
 	<hr>
 	<ol>
-		{% for blog in site.blog %}
+		{% for blog in site.blog | sort: 'nama' %}
 			<li>
 				<a href="{{ blog.link }}">{{ blog.nama }}</a> &bull; <span>{{ blog.deskripsi }}</span>
 			</li>
