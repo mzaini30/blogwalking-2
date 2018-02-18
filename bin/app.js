@@ -8,5 +8,5 @@ jQuery(function($){
 	var intDay = Math.floor(intNow / 86400000); // The number of 'local' days since Jan 1, 1970
 	var intQuoteToDisplay = intDay % intQuoteCount;
 
-	// $('.tampil-blog').attr('src', blog[intQuoteToDisplay]);
+	
 });
