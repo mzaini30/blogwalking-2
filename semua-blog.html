@@ -17,14 +17,25 @@
 		<a href="index.html" target="_parent">Kembali ke beranda</a>
 	</p>
 	<hr>
-	<ol>
-		{% assign blog_sorted = site.blog | sort: 'nama' %}
-		{% for blog in blog_sorted %}
-			<li>
-				<a href="{{ blog.link }}">{{ blog.nama }}</a> &bull; <span>{{ blog.deskripsi }}</span>
-			</li>
-		{% endfor %}
-	</ol>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Blog</th>
+				<th>Deskripsi</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% assign blog_sorted = site.blog | sort: 'nama' %}
+			{% for blog in blog_sorted %}
+				<tr>
+					<td>
+						<a href="{{ blog.link }}">{{ blog.nama }}</a>
+					</td>
+					<td>{{ blog.deskripsi }}</td>
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
 </div>
 </body>
 </html>
