@@ -1,12 +1,3 @@
-blog = [
-	'http://muhammadzaini.com',
-	'http://dewieajaa.blogspot.co.id/',
-	'http://www.henipuspita.net/',
-	'https://japanesestation.com/',
-	'https://www.mysatnite.com/',
-	'https://teknokanz.blogspot.co.id/',
-	'http://syufiayaumma.blogspot.co.id/'
-];
 blog = [{
 	'link': 'http://muhammadzaini.com',
 	'nama': 'Zen',
@@ -30,5 +21,9 @@ blog = [{
 }, {
 	'link': 'http://teknokanz.blogspot.co.id',
 	'nama': 'Si Kanz Technologies',
-	'deskripsi': 'Your story is our story'
+	'deskripsi': 'Teknologi, games, software, APK'
+}, {
+	'link': 'http://syufiayaumma.blogspot.co.id',
+	'nama': 'Syufia',
+	'deskripsi': 'Life'
 }];
