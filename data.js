@@ -4,7 +4,8 @@ layout: compress
 
 {% assign first = true %}
 blog = [
-	{% for blog in site.blog %}
+	{% assign blog_sorted = site.blog | sort: 'nama' %}
+	{% for blog in blog_sorted %}
 		{% unless first %},{% endunless %}{
 			'link': '{{ blog.link }}',
 			'nama': '{{ blog.nama }}',
