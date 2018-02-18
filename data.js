@@ -4,7 +4,7 @@ layout: compress
 
 {% assign first = true %}
 blog = [
-	{% assign blog_acak = site.blog | sample %}
+	{% assign blog_acak = site.blog | sample: 2 %}
 	{% for blog in blog_acak %}
 		{% unless first %},{% endunless %}{
 			'link': '{{ blog.link }}',
