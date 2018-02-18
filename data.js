@@ -4,5 +4,6 @@ blog = [
 	'http://www.henipuspita.net/',
 	'https://japanesestation.com/',
 	'https://www.mysatnite.com/',
-	'https://teknokanz.blogspot.co.id/'
+	'https://teknokanz.blogspot.co.id/',
+	'http://syufiayaumma.blogspot.co.id/'
 ];
