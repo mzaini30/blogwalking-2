@@ -7,3 +7,12 @@ blog = [
 	'https://teknokanz.blogspot.co.id/',
 	'http://syufiayaumma.blogspot.co.id/'
 ];
+blog = [{
+	'link': 'http://muhammadzaini.com',
+	'nama': 'Zen',
+	'deskripsi': 'Senyumlah :)'
+}, {
+	'link': 'http://muhammadzaini.com',
+	'nama': 'Zen',
+	'deskripsi': 'Senyumlah :)'
+}];
