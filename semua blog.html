@@ -18,7 +18,8 @@
 	</p>
 	<hr>
 	<ol>
-		{% for blog in site.blog | sort: 'nama' %}
+		{% assign blog_sorted = site.blog | sort: 'nama' %}
+		{% for blog in blog_sorted %}
 			<li>
 				<a href="{{ blog.link }}">{{ blog.nama }}</a> &bull; <span>{{ blog.deskripsi }}</span>
 			</li>
