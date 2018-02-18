@@ -1,4 +1,5 @@
 ---
+layout: compress
 ---
 
 {% assign first = true %}

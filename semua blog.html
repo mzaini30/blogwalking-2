@@ -9,11 +9,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 	<link rel="stylesheet" type="text/css" href="bin/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="bin/style.css">
-	<script type="text/javascript">
-		document.writeln('<scri'+'pt type=\"text/javascript\" src=\'data.js?'+Math.random()+'\'></scr'+'ipt>');
-		document.writeln('<scri'+'pt type=\"text/javascript\" src=\'bin/jquery.min.js?'+Math.random()+'\'></scr'+'ipt>');
-		document.writeln('<scri'+'pt type=\"text/javascript\" src=\'bin/app.js?'+Math.random()+'\'></scr'+'ipt>');
-	</script>
 </head>
 <body>
 <div class="container semua-blog">
@@ -25,7 +20,7 @@
 	<ol>
 		{% for blog in site.blog %}
 			<li>
-				<a href="{{ blog.link }}">{{ blog.nama }}</a> &times; <span>{{ blog.deskripsi }}</span>
+				<a href="{{ blog.link }}">{{ blog.nama }}</a> &bull; <span>{{ blog.deskripsi }}</span>
 			</li>
 		{% endfor %}
 	</ol>
