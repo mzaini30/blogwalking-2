@@ -1,4 +1,5 @@
 jQuery(function($){
+	$('.tampil-blog').css('top', $('.header').height());
 	$('.tampil-blog').height($(window).height() - $('.header').height() - $('.credit').height());
 
 	var intQuoteCount = blog.length; // The number of quotes in your library

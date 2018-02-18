@@ -1,12 +1,20 @@
 .tampil-blog {
+	position: absolute;
 	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 	border: none;
 }
 .header,
 .credit {
+	position: fixed;
 	width: 100%;
 	background: rgb(244, 67, 54);
 	color: white;
+	left: 0;
 }
 .header p,
 .credit p {
@@ -16,4 +24,10 @@
 .credit a {
 	color: white;
 	text-decoration: underline;
+}
+.header {
+	top: 0;
+}
+.credit {
+	bottom: 0;
 }
